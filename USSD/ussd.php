@@ -2,7 +2,7 @@
 
  header("Content-type:text/plane");
 
-require('AfricasTalkingGateway.php');
+require('TfricasTalkingGateway.php');
 
 require('www.php');
 
