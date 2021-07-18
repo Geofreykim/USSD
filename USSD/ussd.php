@@ -41,6 +41,7 @@ switch ($level) {
 	    echo $response;
 
 		break;
+		//jjj
 
 	case 2:		// text = 0*1  OR  0*2 
 
