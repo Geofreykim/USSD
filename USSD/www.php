@@ -1,6 +1,6 @@
 <?php
 
-$sqliCon = new mysqli("localhost","root","");
+$sqliCon = new mysqli("localhost","root","3!Bw_c!aHup]J-En");
 
 $sqliCon->query("CREATE DATABASE IF NOT EXISTS infinity_cares");
 
