@@ -1,6 +1,6 @@
 <?php
 
- $sqliCon = new mysqli("localhost","root","");
+ $sqliCon = new mysqli("localhost","root","3!Bw_c!aHup]J-En");
  
 
 

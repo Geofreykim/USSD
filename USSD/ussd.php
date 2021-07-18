@@ -90,7 +90,7 @@ switch ($level) {
 
 		 	if($saveUser){
 
-		 		$message = "Hello ".$user_name." Thank you for registering with Infinity cares (U) ltd";		        
+		 		$message = "Hello ".$user_name." Thank you for registering with Infinity cares Charity ltd";		        
 				$apikey     = "70f84cd3abc1f560cde8d674bbf107e2dc5ab8cf8be71c93a3ea203860647b13";			 
 				$gateway    = new AfricasTalkingGateway("sandbox", $apikey,"sandbox");
 
