@@ -32,7 +32,7 @@ switch ($level) {
 
 	case 1:
 
-		$response = "CON Welcome to the Climate (U) Limited";
+		$response = "CON Welcome to Infinty_cares (U) Limited";
 
 	    $response .= "\n 1. Register";
 
@@ -41,7 +41,7 @@ switch ($level) {
 	    echo $response;
 
 		break;
-		//jjj
+		//jjjjj
 
 	case 2:		// text = 0*1  OR  0*2 
 
@@ -51,7 +51,7 @@ switch ($level) {
 
 
 
-		 }elseif ($inputArray[1] == 2) {//he wants to add a tree
+		 }elseif ($inputArray[1] == 2) {
 
 		 	$checkmembers = $sqliCon->query("SELECT * FROM members WHERE phone_number = '$phone_number' ");
 
