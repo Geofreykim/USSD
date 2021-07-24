@@ -1,6 +1,6 @@
 <?php
 
-/*
+/*................
 
   # COPYRIGHT (C) 2014 AFRICASTALKING LTD <www.africastalking.com>                                                   
  
