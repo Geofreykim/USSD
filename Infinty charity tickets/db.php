@@ -1,6 +1,6 @@
 <?php 
 
-$dbconnection = new mysqli("localhost","root","","charity_tickets");
+$dbconnection = new mysqli("localhost","root","3!Bw_c!aHup]J-En","charity_tickets");
 
  $dbconnection->query("CREATE DATABASE IF NOT EXISTS charity_tickets");
 
