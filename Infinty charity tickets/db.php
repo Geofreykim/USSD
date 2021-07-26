@@ -2,9 +2,9 @@
 
  $dbconnection = new mysqli("localhost","root","3!Bw_c!aHup]J-En","charity_tickets");
 
- 
-
  $dbconnection->query("CREATE DATABASE IF NOT EXISTS charity_tickets");
+
+
 
 $dbconnection->query("INSERT INTO tickets (id, name, price) VALUES  ('101', 'VIP', '1000')");
 
