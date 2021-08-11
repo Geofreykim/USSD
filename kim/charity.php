@@ -8,25 +8,20 @@ require 'db.php';
 		<meta charset="utf-8">
 		<title>Buy Tickets</title>
 		<link rel="stylesheet" type="text/css" href="app.css">
-		 	<link rel="stylesheet" type="text/css" href="footer.css">
-		 	<link rel="stylesheet" type="text/css" href="nav.css">
+		 
 	</head>
 	<body>
-
-		<span id="app"></span>
+	<span id="app"></span>
 
 	    <main class="py-4">
 	        <div class="container">
 
-	        	<h1> <img src="images/logo.png" width="200px" height="200px">Infinity Charity Organisation</h1>
-<nav>
-  <ul class="menu">
-    <li><a href="#!">Home</a></li>
-    <li><a href="#!">About us</a></li>
-    <li><a href="#!">Contact</a></li>
-    <li><a href="#!">Donation</a></li>
-  </ul>
-</nav>
+		        	<h1> <img src="images/logo.png" width="200px" height="200px">Infinity Charity Organisation</h1>
+
+		        		        	<?php 
+
+require ('head.php');
+ ?>
 
 	        	<h3>Pay for your ticket here..</h3>
 	        	<hr>
@@ -143,38 +138,4 @@ require 'db.php';
 	    </main>
 </body>
 
-<footer id="fh5co-footer" class="fh5co-bg" role="contentinfo">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row row-pb-md">
-				<div class="col-md-4 fh5co-widget">
-					<h3>A Little About Infinity Charity Organisation.</h3>
-					<p>It was founded to help the children that are in need in every way possible, in Uganda and Africa at large.</p>
-					<p><a class="btn btn-primary" href="#">Become A Member</a></p>
-				</div>
-				<div class="col-md-8">
-					<h3>Visit us</h3>
-					<div class="col-md-4 col-sm-4 col-xs-6">
-						<ul class="fh5co-footer-links">
-							<li><a href="#">Home</a></li>
-							<li><a href="#">Donation</a></li>
-							<li><a href="#">Gallery</a></li>
-							<li><a href="#">Seminars</a></li>
-							<li><a href="#">About us</a></li>
-						</ul>
-					</div>
-
  
-			<div class="row copyright">
-				<div class="col-md-12 text-center">
-					<p>
-						<small class="block">&copy; 2021 | All Rights Reserved.</small> 
-						<small class="block">Powered by  Infinity Charity Organisation.com</small>
-					</p>
-				</div>
-			</div>
-
-		</div>
-	</footer>
-
-</html>
